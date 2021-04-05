@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,600;1,700&display=swap');
+:root{
+    --primary-color: #1F2937;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#txt-input{
+    font-weight:100;
+    padding: 0px;
+    height: 20vh;
+    width: 100%;
+    background-color:var(--primary-color);
+    border-radius: 1rem;
+}
+
+#txt-input h1{
+    text-align: center;
+    margin: auto;
+    padding-top: 5vh;
+    color: aliceblue;   
+}
+
+#date-box{
+    text-align: center;
+    margin: 10vw;
+}
+
+#txt-output {
+    border: 1px var(--primary-color) solid;
+    height: 5vh;
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+}
+
+#btn-check{
+   padding: 1rem;
+   border:none;
+   background-color: var(--primary-color);
+   color: aliceblue;
+   border-radius: 0.5rem;
+
+}
+.footer{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    margin-top:27vh;
+    margin-bottom: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 1rem;
+    
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+}
+.footer-list .li-items:hover{
+    font-weight: bolder;
+}
+.footer a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: aliceblue;
+}
